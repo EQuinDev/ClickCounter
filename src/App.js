@@ -37,8 +37,11 @@ function App() {
           texto='Restart'
           esBotonDeClick={false}
           manejarClick={reiniciarContador} />
-        
       </div>  
+
+      <div class="marco">
+        <p>Desarrollado por EQuinDev</p>
+      </div>
     </div>
   );
 }

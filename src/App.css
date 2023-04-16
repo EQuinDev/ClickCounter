@@ -21,8 +21,8 @@ html, body{
 .logo-plataforma-contenedor{
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   margin: 20px;
 }
 
@@ -33,10 +33,26 @@ html, body{
 .contenedor-principal{
   height: 700px;
   min-width: 700px;
+  position: absolute;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+
+.marco {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  float: left;
+}
+
+.marco p {
+  margin: 0;
+}
+
 
